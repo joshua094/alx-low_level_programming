@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main -entry point
- *
+ *main -Entry point
+ *My hello print f task
  *Return: 0 after printing the function
  */
 int main (void)
