@@ -1,29 +1,24 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
- * main -Entry point
- *
- * Return: Always 0 (Success)
- */
-
+*main - main block
+*Write a program that prints all possible combinations of single-digit numbers
+*Return: 0
+*/
 int main(void)
 {
-	int number;
-
-	for (number = 48; number <= 57; number++)
+int d = 0;
+	while (d < 10)
 	{
-		putchar(number);
-
-		if (number == 57);
+		putchar(d + '0');
+		if (d < 9)
 		{
-			break;
+			putchar(',');
+			putchar(' ');
 		}
-
-		putchar(',');
-		putchar (' ');
+		d++;
 	}
-
 	putchar('\n');
-
-	return (0);
+return (0);
 }
