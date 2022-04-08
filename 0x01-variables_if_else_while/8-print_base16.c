@@ -13,8 +13,7 @@ int main(void)
 	for (m = 48; m < 58; m++)
 	{
 		putchar (m);
-	}
-	
+	}	
 
 	for (m  = 97; m <= 102; m++)
 	{
@@ -24,5 +23,4 @@ int main(void)
 	putchar ('\n');
 
 	return (0);
-
 }
