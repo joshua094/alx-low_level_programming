@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - causes an infinite loop
- *
- * Return: 0
+ * print_to_98 - print to 98
+ * @n : number to start from
+ * Return:0 or 1
  */
 
 int main(void)
