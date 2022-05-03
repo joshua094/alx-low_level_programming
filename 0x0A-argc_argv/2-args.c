@@ -1,15 +1,17 @@
 #include <stdio.h>
 /**
- * main - display name of program
+ * main - display all arg
  * @argc:int
  * @argv:string
  * Return:int
  */
 int main(int argc, char *argv[])
 {
-	if (argc == 1)
+	int i;
+
+	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n", argv[0]);
+		printf("%s\n", argv[i]);
 	}
 	return (0);
 }
