@@ -3,8 +3,8 @@
 
 /**
  * main - check if code correctly allocates malloc
- *
- * Return: Always 0.
+ *  @b: number of bits to use
+ * Return: pointer to the address or 98 otherwise
  */
 
 void *malloc_checked(unsigned int b);
